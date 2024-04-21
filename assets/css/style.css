@@ -181,8 +181,8 @@ footer a {
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
-  background: #024E76;
-  color: #FEC138;
+  background: #024e76;
+  color: #fec138;
   overflow: auto;
 }
 .trainer img {
@@ -214,15 +214,24 @@ footer a {
   text-align: right;
 }
 
-
-
 /* REACH OUT STYLE START */
+
 .contact {
+  padding: 50px;
   text-align: center;
   background: #024e76;
 }
-.contact h2 {
+
+.contact h2,
+.contact h3 {
   color: #fce138;
+}
+
+.reach-out-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
 }
 .contact-info iframe {
   width: 400px;
@@ -236,9 +245,17 @@ footer a {
   margin: 30px 0 0 60px;
   color: white;
 }
+
+.contact-info {
+  text-align: start;
+  line-height: 30px;
+  color: white;
+}
+
 .contact-info h3 {
   color: #fce138;
-  font-size: 32px;
+  font-size: 40px;
+  padding-bottom: 10px;
 }
 .contact-info p,
 .contact-info address {
@@ -249,4 +266,13 @@ footer a {
 }
 .contact-info a {
   color: #fce138;
+}
+
+address a {
+  /* text-decoration: none; */
+  color: gold;
+}
+
+address {
+  padding-top: 10px;
 }
