@@ -42,22 +42,20 @@ header nav a {
 
 /* Header include the heading title and navbar. This take navbar for 50% width in header */
 header nav {
-  width: 50%;
+  width: 35%;
 }
 
 /* Navbar is making with unorder list and this flex will change list direction in row. */
 header ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 footer {
-
   background: #fce138;
 
   width: 100%;
 
   padding: 40px 35px;
-
 }
 
 .intro {
@@ -73,10 +71,10 @@ footer {
   border-color: #fce138;
 }
 
- .intro h2 {
+.intro h2 {
   /* add this alongside your other declarations */
   display: inline-block;
-} 
+}
 
 .intro p {
   line-height: 1.7;
@@ -95,14 +93,14 @@ footer {
   background: #fce138;
 }
 
- .steps h2 {
+.steps h2 {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
   border-color: #39a6b2;
-} 
+}
 
 .section-title {
   font-size: 55px;
@@ -121,21 +119,18 @@ footer {
   border-color: #39a6b2;
 }
 
- /* remove this entire CSS rule */
+/* remove this entire CSS rule */
 
- .intro h2 {
-
+.intro h2 {
 }
 
- /* and this one */
+/* and this one */
 
- .steps h2 {
-
+.steps h2 {
 }
 
 .steps div {
   margin-bottom: 80px;
-
 }
 
 .steps img {
@@ -159,7 +154,6 @@ footer {
 }
 
 footer h2 {
-
   display: inline;
 
   color: #024e76;
@@ -167,21 +161,16 @@ footer h2 {
   font-size: 30px;
 
   margin: 0;
-
 }
 
 footer div {
-
   float: right;
 
   line-height: 1.5;
 
   text-align: right;
-
 }
 
 footer a {
-
   color: #024e76;
-
 }
