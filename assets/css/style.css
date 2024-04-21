@@ -42,13 +42,13 @@ header nav a {
 
 /* Header include the heading title and navbar. This take navbar for 50% width in header */
 header nav {
-  width: 35%;
+  width: 50%;
 }
 
 /* Navbar is making with unorder list and this flex will change list direction in row. */
 header ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 footer {
   background: #fce138;
